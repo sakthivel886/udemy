@@ -70,7 +70,13 @@ body {
     width: 400px;
     border: solid black 1px;
     padding: 8px;
-
+    animation-name: popup;
+    animation-duration: 3s;
+}
+@keyframes popup {
+    0% {
+        transform: scale(0);
+    }
 }
 .categories {
     display: flex;
@@ -85,6 +91,14 @@ body {
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    border: solid rgb(164, 53, 240) 1px;
+    cursor: pointer;
+}
+.categories p:hover {
+    transition: 0.5s;
+    background-color: white;
+    color:rgb(164, 53, 240);
+    border: solid rgb(164, 53, 240) 1px;
 }
 .recommended {
     padding: 15px;
