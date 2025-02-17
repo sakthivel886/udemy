@@ -70,7 +70,7 @@ body {
     position: absolute;
     top: 90px;
     left: 30px;
-    width: 300px;
+    width: 400px;
     border: solid black 1px;
     padding: 8px;
     animation-name: popup;
@@ -169,6 +169,7 @@ body {
     }
     .navbar-bar {
         display: block;
+        margin-right: 10px;
     }
     .navbar-s2, .navbar-s3 {
         display: none;
@@ -181,6 +182,7 @@ body {
     }
     .recommended-container {
         display: flex;
+        justify-content: space-around;
     }
     .recommended-container__cart {
         width: 40%;
